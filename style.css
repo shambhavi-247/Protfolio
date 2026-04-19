@@ -89,3 +89,24 @@ footer {
     background: rgba(0, 0, 0, 0.85);
     color: white;
 }
+/* Remove default arrow */
+details summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+/* Remove arrow for Chrome */
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Keep heading inline */
+details summary h3 {
+    display: inline;
+    margin: 0;
+}
+
+/* Optional: add hover effect */
+details summary:hover h3 {
+    color: #007bff;
+}
