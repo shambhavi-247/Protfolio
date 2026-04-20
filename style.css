@@ -89,3 +89,11 @@ footer {
     background: rgba(0, 0, 0, 0.85);
     color: white;
 }
+details summary {
+    cursor: pointer;
+}
+
+details summary h3 {
+    display: inline;   /*  THIS fixes your issue */
+    margin: 0;
+}
